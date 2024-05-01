@@ -26,13 +26,13 @@ def get_info(data):
     #Достаём название турнира
     tournament_data = data.find('div', class_='block-tournament-header ng-star-inserted')
     tournament_name = tournament_data.find('span', class_='block-tournament-header__title')
-    with open("1.txt", "a", encoding="utf-8") as f:
+    with open("info.txt", "a", encoding="utf-8") as f:
         f.write(tournament_name.text.strip() + '\n\n')
     #Достаем название команды
     team_data = data.find_all('div', class_='card ng-star-inserted')  # Записываем все матчи
     for i in team_data: #Перебираем все мачти  
         team_names = i.find_all('div', class_='name ng-star-inserted')  #Записываем две команды соперницы
-        with open("1.txt", "a", encoding="utf-8") as f:
+        with open("info.txt", "a", encoding="utf-8") as f:
             for j in team_names:    # Перебираем эти 2 команды
                 team = j    # Записываем команду
                 f.write(j.text.strip() + '\n')
@@ -54,6 +54,9 @@ urls = [
     "https://winline.ru/stavki/sport/kibersport/league_of_legends",
     "https://winline.ru/stavki/sport/kibersport/rainbow_six",
 ]
+
+with open('info.txt', 'w'):
+    pass
 
 for url in urls:
     html_content = get_html_content(url)

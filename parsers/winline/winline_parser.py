@@ -22,48 +22,47 @@ def get_html_content(url):
     return html_content
 
 
-def get_tournament(data):
-    tournament_name = data.find('span', class_='block-tournament-header__title')
+def get_info(data):
+    #Достаём название турнира
+    tournament_data = data.find('div', class_='block-tournament-header ng-star-inserted')
+    tournament_name = tournament_data.find('span', class_='block-tournament-header__title')
     with open("1.txt", "a", encoding="utf-8") as f:
-        f.write(tournament_name.text.strip() + '\n')
+        f.write(tournament_name.text.strip() + '\n\n')
+    #Достаем название команды
+    team_data = data.find_all('div', class_='card ng-star-inserted')  # Записываем все матчи
+    for i in team_data: #Перебираем все мачти  
+        team_names = i.find_all('div', class_='name ng-star-inserted')  #Записываем две команды соперницы
+        with open("1.txt", "a", encoding="utf-8") as f:
+            for j in team_names:    # Перебираем эти 2 команды
+                team = j    # Записываем команду
+                f.write(j.text.strip() + '\n')
+            f.write('\n')
+            # Достаём кэфы
+            team_coef_data = i.find_all('div', class_='card__coeffs')   # Записываем две ленты кэфов
+            for j in team_coef_data:    # Перебираем их
+                coef_data = j.find_all('span')
+                for q in coef_data:
+                    f.write(q.text + " " * 4) # Записываем
+                f.write('\n')
+            f.write('\n\n')
 
-
-def get_team_name(data):
-    team_data = data.find('div', class_='body-left__names name')
-    team_names = team_data.find_all('div', class_='name ng-star-inserted')
-    with open("1.txt", "a", encoding="utf-8") as f:
-        for i in team_names:
-            team = i
-            f.write(i.text.strip() + '\n')
-        f.write('\n')
-        #Тут пиздец, пока не придумал как решить
-        # count = 0
-        # team_coef_data = data.find_all('div', class_='coefficient-button coefficient-button_fill coefficient-button_align_space-b coefficient-button_generic2 coefficient-button_align_center ng-star-inserted')
-        # for i in team_coef_data:
-        #     if count != 2:
-        #         f.write(i.text.strip() + " " * 4)
-        #     else:
-        #         f.write('\n' + i.text.strip() + " " * 4)  
-# soup = bs(html_content, 'lxml')
 
 urls = [
     "https://winline.ru/stavki/sport/kibersport/counter-strike",
-    # "https://winline.ru/stavki/sport/kibersport/dota_2",
-    # "https://winline.ru/stavki/sport/kibersport/valorant",
-    # "https://winline.ru/stavki/sport/kibersport/league_of_legends",
-    # "https://winline.ru/stavki/sport/kibersport/rainbow_six",
+    "https://winline.ru/stavki/sport/kibersport/dota_2",
+    "https://winline.ru/stavki/sport/kibersport/valorant",
+    "https://winline.ru/stavki/sport/kibersport/league_of_legends",
+    "https://winline.ru/stavki/sport/kibersport/rainbow_six",
 ]
 
 for url in urls:
     html_content = get_html_content(url)
     soup = bs(html_content, "lxml")
-    filename = url.replace("https://winline.ru/stavki/sport/kibersport/", "") + ".html"
-    with open(filename, "w", encoding="utf-8") as f:
-        f.write(soup.prettify())
+    # filename = url.replace("https://winline.ru/stavki/sport/kibersport/", "") + ".html"
+    # with open(filename, "w", encoding="utf-8") as f:
+    #     f.write(soup.prettify())
     
-    list = soup.find('div', class_='block-sport__champ-item ng-star-inserted') 
+    list = soup.find_all('div', class_='block-tournament') 
     
     for match in list:
-        get_tournament(match)
-        get_team_name(match)
-        get_team_coef(match)
+        get_info(match)

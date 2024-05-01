@@ -1,0 +1,255 @@
+Counter-Strike | ESL Pro League
+
+Counter-Strike | ESL Pro League, Дуэль игроков, Убийства
+
+Counter-Strike | CCT EU
+
+Counter-Strike | H2H Liga 2x2
+
+Counter-Strike | YaLLa Compass Contenders
+
+Counter-Strike | ESL Pro League
+
+TEAM LIQUID
+MONTE
+
+1.40    2.72    2.32    - 1.5 +    - 1.5 +    + 1.5 -    1.54    1.71    2.5    2.01    
+1.54    2.31    -    -    -    1.76    21.5    18.5    19.5    20.5    21.5    22.5    23.5    1.96    
+
+
+FURIA ESPORTS
+FORZE
+
+1.37    2.84    2.13    - 1.5 +    - 1.5 +    + 1.5 -    1.63    1.68    2.5    2.06    
+1.52    2.37    -    -    -    1.75    21.5    18.5    19.5    20.5    21.5    22.5    23.5    1.96    
+
+
+Counter-Strike | ESL Pro League, Дуэль игроков, Убийства
+
+NAF (TEAM LIQUID)
+WORO2K (MONTE)
+
+-    -    -    -    -    -    -    -    -    
+-    -    -    -    -    -    1.92    31.5    1.78    
+
+
+KSCERATO (FURIA ESPORTS)
+SMOOYA
+
+-    -    -    -    -    -    -    -    -    
+
+
+KSCERATO (FURIA ESPORTS)
+SHALFEY (FORZE)
+
+-    -    -    -    -    -    -    -    -    
+-    -    -    -    -    -    1.94    29.5    1.77    
+
+
+DOTA 2 | European Pro League
+
+YELLOW SUBMARINE
+1WIN
+
+3.97    1.21    -    -    -    -    -    -    
+3.22    1.30    -    -    -    -    -    -    
+
+
+DOTA 2 | Kobolds Rave
+
+KEV
+SPIKY
+
+1.75    1.96    -    -    -    -    -    -    
+1.78    1.92    -    -    -    -    -    -    
+
+
+KEV
+TEAM BRIGHT
+
+1.64    2.12    -    -    -    -    -    -    
+1.70    2.02    -    -    -    -    -    -    
+
+
+DOTA 2 | RES Regional Series
+
+INFINITY
+MIDAS CLUB
+
+1.79    1.92    3.03    - 1.5 +    1.33    1.72    2.5    2.00    
+1.79    1.92    -    -    -    -    -    -    
+
+
+BOOM ESPORTS
+QHALI
+
+1.15    4.78    1.58    - 1.5 +    2.23    1.39    2.5    2.75    
+1.25    3.57    -    -    -    -    -    -    
+
+
+Valorant | VCL
+
+2GAME ESPORTS
+HERO BASE
+
+2.05    1.69    1.32    + 1.5 -    - 1.5 +    + 1.5 -    3.11    1.96    2.5    1.76    
+1.96    1.75    -    -    -    2.02    21.5    20.5    21.5    22.5    1.70    
+
+
+Valorant | VCT
+
+KARMINE CORP
+TEAM HERETICS
+
+1.94    1.78    1.33    + 1.5 -    - 1.5 +    + 1.5 -    3.02    1.72    2.5    2.00    
+1.92    1.79    -    -    -    1.76    21.5    20.5    21.5    22.5    1.94    
+
+
+Valorant | VCT Game Changers
+
+FC BARCELONA
+AKAVE BLACK
+
+8.54    1.04    -    -    -    -    -    -    
+4.76    1.15    -    -    -    -    -    -    
+
+
+Valorant | VCL
+
+RECKONING ESPORTS
+GRAYFOX
+
+2.10    1.66    1.37    + 1.5 -    - 1.5 +    + 1.5 -    2.84    1.77    2.5    1.94    
+2.00    1.72    -    -    -    1.76    21.5    1.95    
+
+
+CARNIVAL
+MEDAL ESPORTS
+
+4.23    1.19    1.99    + 1.5 -    - 1.5 +    + 1.5 -    1.73    1.52    2.5    2.37    
+3.12    1.32    -    -    -    1.94    20.5    1.77    
+
+
+Valorant | VCT
+
+EDWARD GAMING
+ALL GAMERS
+
+1.07    6.75    1.38    - 1.5 +    2.80    1.33    2.5    3.06    
+1.18    4.35    -    -    -    2.03    19.5    18.5    19.5    20.5    1.70    
+
+
+TEAM VITALITY
+KOI
+
+1.30    3.20    1.96    - 1.5 +    - 1.5 +    + 1.5 -    1.75    1.61    2.5    2.17    
+1.41    2.70    -    -    -    2.05    20.5    19.5    20.5    21.5    1.68    
+
+
+NATUS VINCERE
+FNATIC
+
+2.15    1.63    1.39    + 1.5 -    - 1.5 +    + 1.5 -    2.76    1.76    2.5    1.94    
+2.04    1.70    -    -    -    1.75    21.5    1.95    
+
+
+TEAM SECRET
+T1
+
+1.99    1.74    1.35    + 1.5 -    - 1.5 +    + 1.5 -    2.93    1.77    2.5    1.93    
+1.96    1.75    -    -    -    1.76    21.5    1.95    
+
+
+PAPER REX
+TALON ESPORTS
+
+1.26    3.49    1.86    - 1.5 +    - 1.5 +    + 1.5 -    1.84    1.58    2.5    2.24    
+1.37    2.86    -    -    -    2.01    20.5    1.71    
+
+
+WOLVES
+JD GAMING
+
+1.67    2.08    2.83    - 1.5 +    - 1.5 +    + 1.5 -    1.37    1.77    2.5    1.94    
+1.72    2.00    -    -    -    1.76    21.5    1.95    
+
+
+TEAM LIQUID
+GENTLE MATES
+
+1.60    2.20    2.75    - 1.5 +    - 1.5 +    + 1.5 -    1.39    1.76    2.5    1.94    
+1.69    2.04    -    -    -    1.75    21.5    1.95    
+
+
+BUBBLE BURSTER GAMING
+FUT ESPORTS
+
+2.49    1.48    1.51    + 1.5 -    - 1.5 +    + 1.5 -    2.38    1.72    2.5    2.00    
+2.27    1.56    -    -    -    2.20    20.5    1.60    
+
+
+Valorant | VCL
+
+FOKUS
+SK GAMING
+
+1.59    2.22    2.67    - 1.5 +    - 1.5 +    + 1.5 -    1.42    1.74    2.5    1.97    
+1.67    2.08    -    -    -    1.75    21.5    1.96    
+
+
+League of Legends | LDL
+
+MIAOJING
+TOP ESPORTS CHALLENGER
+
+3.90    1.21    -    -    -    -    -    -    
+2.94    1.35    -    -    -    -    -    -    
+
+
+BILIBILI GAMING JUNIOR
+TT YOUNG
+
+2.08    1.67    -    -    -    -    -    -    
+2.00    1.72    -    -    -    -    -    -    
+
+
+League of Legends | MSI
+
+FNATIC
+GAM ESPORTS
+
+1.06    7.31    1.42    - 1.5 +    - 1.5 +    + 1.5 -    2.65    1.37    2.5    2.85    
+1.19    4.13    -    -    -    -    -    -    
+
+
+League of Legends | LDL
+
+EDWARD GAMING YOUTH TEAM
+LNG ESPORTS ACADEMY
+
+1.15    4.66    -    -    -    -    -    -    
+1.29    3.27    -    -    -    -    -    -    
+
+
+League of Legends | MSI
+
+TOP
+LOUD
+
+1.01    10.0    -    -    -    -    -    -    
+
+
+T1
+FLYQUEST
+
+1.01    10.0    -    -    -    -    -    -    
+1.07    6.69    -    -    -    -    -    -    
+
+
+ESTRAL ESPORTS
+PSG TALON
+
+4.98    1.14    2.43    + 1.5 -    - 1.5 +    + 1.5 -    1.49    1.42    2.5    2.65    
+3.84    1.22    -    -    -    -    -    -    
+
+

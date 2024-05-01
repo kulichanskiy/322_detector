@@ -37,13 +37,13 @@ def get_team_name(data):
             f.write(i.text.strip() + '\n')
         f.write('\n')
         #Тут пиздец, пока не придумал как решить
-        count = 0
-        team_coef_data = data.find_all('div', class_='coefficient-button coefficient-button_fill coefficient-button_align_space-b coefficient-button_generic2 coefficient-button_align_center ng-star-inserted')
-        for i in team_coef_data:
-            if count != 2:
-                f.write(i.text.strip() + " " * 4)
-            else:
-                f.write('\n' + i.text.strip() + " " * 4)  
+        # count = 0
+        # team_coef_data = data.find_all('div', class_='coefficient-button coefficient-button_fill coefficient-button_align_space-b coefficient-button_generic2 coefficient-button_align_center ng-star-inserted')
+        # for i in team_coef_data:
+        #     if count != 2:
+        #         f.write(i.text.strip() + " " * 4)
+        #     else:
+        #         f.write('\n' + i.text.strip() + " " * 4)  
 # soup = bs(html_content, 'lxml')
 
 urls = [

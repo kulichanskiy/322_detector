@@ -12,7 +12,7 @@ def get_html_content(url):
     )  # Запускаем Chrome в режиме headless (без отображения GUI)
     driver = webdriver.Chrome(options=chrome_options)
     driver.get(url)
-    # Добавляем задержку до 10 секунд, чтобы дождаться загрузки страницы
+    # Добавляем задержку до 7 секунд, чтобы дождаться загрузки страницы
     wait = WebDriverWait(driver, 7)
     wait.until(
         EC.presence_of_element_located((By.CLASS_NAME, "block-sport__champ-list"))
